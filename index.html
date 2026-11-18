@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ sơ cá nhân - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Thanh điều hướng -->
+    <header>
+        <nav class="container">
+            <div class="logo">Portfolio.</div>
+            <ul class="nav-links">
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Nội dung chính -->
+    <main>
+        <!-- Phần mở đầu (Hero Section) -->
+        <section id="about" class="hero container">
+            <div class="hero-text">
+                <p class="greeting">Xin chào, mình là</p>
+                <h1>Lê Nguyễn Đức Vinh</h1>
+                <h2>Sinh viên ngành Sư phạm Tin học - Đại học Sư phạm TP.HCM</h2>
+                <p class="bio">
+                    Mình yêu thích lập trình web, thiết kế giao diện người dùng (UI/UX) 
+                    và xây dựng các ứng dụng hữu ích phục vụ học tập và đời sống.
+                </p>
+                <a href="#projects" class="btn">Xem các dự án của mình</a>
+            </div>
+            <div class="hero-image">
+                <!-- Thay thế link ảnh dưới đây bằng file avatar.jpg của em khi tải ảnh lên cùng thư mục -->
+                <img src="https://placehold.co/280x280/2563eb/ffffff?text=Avatar" alt="Ảnh đại diện">
+            </div>
+        </section>
+
+        <!-- Phần Kỹ năng -->
+        <section id="skills" class="bg-light">
+            <div class="container">
+                <h2 class="section-title">Kỹ năng chuyên môn</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">HTML5 &amp; CSS3</div>
+                    <div class="skill-card">JavaScript cơ bản</div>
+                    <div class="skill-card">Lập trình C++ / Python</div>
+                    <div class="skill-card">Git &amp; GitHub</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phần Dự án học tập -->
+        <section id="projects" class="container">
+            <h2 class="section-title">Dự án tiêu biểu</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Website Bán Nước Hoa Trực Tuyến</h3>
+                    <p>Đồ án môn Thiết kế Web sử dụng HTML5, CSS Grid và Flexbox. Giao diện hiện đại, tương thích tốt trên nhiều thiết bị.</p>
+                    <a href="https://github.com" target="_blank" class="project-link">Xem mã nguồn trên GitHub &rarr;</a>
+                </article>
+                <article class="project-card">
+                    <h3>Ứng dụng Quản lý Công việc</h3>
+                    <p>Trang web giúp ghi chú và theo dõi tiến độ học tập hằng ngày với giao diện tối giản, dễ sử dụng.</p>
+                    <a href="https://github.com" target="_blank" class="project-link">Xem mã nguồn trên GitHub &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Phần Liên hệ -->
+        <section id="contact" class="bg-light">
+            <div class="container text-center">
+                <h2 class="section-title">Kết nối với mình</h2>
+                <p>Bạn có thể liên hệ trao đổi học thuật hoặc hợp tác dự án qua:</p>
+                <div class="contact-links">
+                    <a href="mailto:emailcuaban@gmail.com" class="btn">Gửi Email</a>
+                    <a href="https://github.com" target="_blank" class="btn btn-outline">GitHub cá nhân</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chân trang -->
+    <footer>
+        <p>&copy; 2026 Thiết kế bởi Lê Nguyễn Đức Vinh. Lưu trữ trên GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
